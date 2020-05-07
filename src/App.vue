@@ -46,9 +46,9 @@
                     <label>HTML Result</label>
                     <hr/>
                     <pre id="code">&lt;table class="table table-valign-middle table-sm table-hover"&gt;
-	&lt;body&gt;
+	&lt;tbody&gt;
 {{paragraph}}
-	&lt;/body&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;</pre>
                 </div>
 
