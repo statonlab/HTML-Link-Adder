@@ -47,7 +47,9 @@
                     <hr/>
                     <pre id="code">&lt;table class="table table-valign-middle table-sm table-hover"&gt;
 	&lt;tbody&gt;
+                        <hr/>
 {{paragraph}}
+                        <hr/>
 	&lt;/tbody&gt;
 &lt;/table&gt;</pre>
                 </div>
@@ -83,7 +85,7 @@
           this.paragraph += '\n\t\t<tr class="no-border">\n' +
             '\t\t<td class="text-muted download-td"><i class="fa fa-file-text-o"></i></td>\n' +
             '\t\t<th>\n' +
-            '\t\t\t' + this.title + '\n' +
+            '\t\t\t<a href="' + this.link + '">' + this.title + '</a>\n' +
             '\t\t\t<div>\n' +
             '\t\t\t\t<a class="text-sm text-muted font-normal" href="' + this.link + '">' + this.description + '</a>\n' +
             '\t\t\t</div>\n' +
